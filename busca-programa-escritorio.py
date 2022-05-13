@@ -1,6 +1,7 @@
 import os
 import re
 
+#os.system('@chcp 65001')
 #os.system('dir /s /b /o:gn > C:\file-list.txt')
 
 ''''
@@ -12,7 +13,8 @@ prog = [
     ['GCAP','GCAP.jar$|GCAP[0-9]{4}\\\\aplicacao\\\\dados\\\\[0-9]{11}'],
     ['ITR','pgditr.jar$|ITR[0-9]{4}\\\\aplicacao\\\\dados\\\\[0-9]{11}'],
     ['PERDCOMP','PERDCOMP[0-9]{2}.exe$|PERDCOMP[0-9]{2}\Documentos Gravados$|PERDCOMP_TABELAS.mdb'],
-    ['SPED-ECF','SpedEcf.exe$|Programas SPED\\\\ECF\\\\mysql\\\\data$']
+    ['SPED-ECF','SpedEcf.exe$|Programas SPED\\\\ECF\\\\mysql\\\\data$'],
+    ['SPED-Contabil','Sped\ Contabil.exe$|\\\\SpedContabil\\\\mysql\\\\data$']
     ]
 
 '''
